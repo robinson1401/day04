@@ -1,0 +1,87 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    width      : 450px;
+    border     : 2px solid #0b5ba6;
+    margin     : 0 auto;
+    padding    : 30px;
+    font-size  : 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.userName {
+    margin-bottom: 17px;
+}
+
+.address>label {
+    width: 100px;
+}
+
+.gender {
+    display: inline-flex;
+}
+
+.gender>label {
+    height: 20px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.gender>input {
+    width      : 30px;
+    margin-left: 20px;
+}
+
+.userName>label {
+    margin-right: 15px;
+}
+
+.dateOfBirth>input {
+    margin-left: 20px;
+}
+
+label {
+    background-color: #5b9bd5;
+    border          : 1px solid #0b5ba6;
+    padding         : 5px;
+    align-items     : baseline;
+}
+
+input {
+    height : 25px;
+    width  : 50%;
+    border : 1px solid #0b5ba6;
+    outline: none;
+    padding: 0 5px;
+}
+
+.register {
+    text-align: center;
+}
+
+#choose {
+    border     : 1px solid #0b5ba6;
+    margin-left: 15px;
+    height     : 30px;
+}
+
+button {
+    background-color: #22b92a;
+    border          : 1px solid #0b5ba6;
+    border-radius   : 8px;
+    width           : 110px;
+    height          : 35px;
+    color           : rgb(215, 233, 248);
+    font-weight     : 600;
+    text-align      : center;
+}
